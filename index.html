@@ -2,10 +2,13 @@
 
     <head>
         <title>Tic-Tac-Toe Alpha Beta Pruning</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <script src="js/main.js"></script>
+        
     </head>
-    <body onload="NewGame();">
+    <body onload="NewGame();" style=" text-align: center;">
         <h1 style="text-align:center; width:280;">Tic-Tac-Toe</h1>
+        <div style="text-align: center;">
         <img src="images/blank.png" width="75" height="71" onclick="MakeMove(0)" style="position:absolute; left:10; top:50; z-index:1" />
         <img src="images/blank.png" width="75" height="71" onclick="MakeMove(1)" style="position:absolute; left:110; top:50; z-index:1" />
         <img src="images/blank.png" width="75" height="71" onclick="MakeMove(2)" style="position:absolute; left:210; top:50; z-index:1" />
@@ -16,8 +19,7 @@
         <img src="images/blank.png" width="75" height="71" onclick="MakeMove(7)" style="position:absolute; left:110; top:250; z-index:1" />
         <img src="images/blank.png" width="75" height="71" onclick="MakeMove(8)" style="position:absolute; left:210; top:250; z-index:1" />
         <img src="images/board.png" id="gameBoard" width="270" height="270"style="position:absolute; left:10; top:50; z-index:0" />
-
-
+        </div>
 
         <p id="turnInfo" style="text-align:center; width:280; position:absolute; left:5; top:350; z-index:1" > TURN INFO </p>
         <form>
